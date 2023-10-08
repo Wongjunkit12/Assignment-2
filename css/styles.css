@@ -1,7 +1,25 @@
+body {
+	font-family: 'Times New Roman', sans-serif;
+	background-color: white;
+}
+
+h1 {
+	margin-left: 25px;
+}
+
+p {
+	font-size: larger;
+	margin-left: 25px;
+}
+
 .dashboard {
 	background-color: white;
-    padding: 50px;
-    padding-top: 35px;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+#vg-tooltip-element {
+	font-size: 15px !important;
 }
 
 .vega-bindings {
@@ -11,14 +29,37 @@
 	background-color: #f9f9f9; 
 	border-radius: 5px;
 	margin-top: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
-  
+
 .vega-bindings > div {
 	flex-grow: 1; 
-	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .vega-bindings > div:last-child {
-	margin-right: 0;
+	margin-right: 0px;
+}
+
+.vis-container {
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+.pure-u-1-3 {
+	margin-left: 20px;
+}
+
+.pure-u-1-4 {
+	margin-left: 20px;
+}
+
+.vis2-description {
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.vis3-description {
+	margin-left: 20px;
+	margin-bottom: 30px;
 }

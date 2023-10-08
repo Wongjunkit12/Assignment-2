@@ -121,6 +121,50 @@
           {"field": "Export (US$ Billions)", "type": "quantitative", "title": "Value of Exported Goods (US$ Billion)"}
         ]
       }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dx": 340,
+        "dy": -40,
+        "fontSize": 13,
+        "fontWeight": "normal"
+      },
+      "encoding": {
+        "text": {
+          "value": "China overtook Germany and other"
+        },
+        "color" : {
+          "value": "black"
+        },
+        "tooltip": {
+          "value": "The 2008 global crisis shakened the economic foundation of advanced economies, creating a power vacuum that China would fill."
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dx": 340,
+        "dy": -25,
+        "fontSize": 13,
+        "fontWeight": "normal"
+      },
+      "encoding": {
+        "text": {
+          "value": "European countries in total exports in 2009"
+        },
+        "color" : {
+          "value": "black"
+        },
+        "tooltip": {
+          "value": "The 2008 global crisis shakened the economic foundation of advanced economies, creating a power vacuum that China would fill."
+        }
+      }
     }
   ],
   "config": {

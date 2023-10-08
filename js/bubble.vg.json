@@ -106,10 +106,97 @@
           {"field": "Country", "type": "nominal", "title": "Country"},
           {"field": "Continent", "type": "nominal", "title": "Continent"},
           {"field": "Year", "type": "quantitative", "title": "Year"},
-          {"field": "Import (US$ Billions)", "type": "quantitative", "title": "Capital Outflow in Imports (US$ Billions)"},
-          {"field": "Export (US$ Billions)", "type": "quantitative", "title": "Capital Inflow in Exports (US$ Billions)"},
+          {"field": "Trade Volume (US$ Billions)", "type": "quantitative", "title": "Total Trade Volume (US$ Billions)"},
           {"field": "GDP (US$ Billions)", "type": "quantitative", "title": "Gross Domestic Product (US$ Billions)"}
         ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dx": 350,
+        "dy": -30,
+        "fontSize": 13,
+        "fontWeight": "normal"
+      },
+      "encoding": {
+        "text": {
+          "value": "Positive correlation relationship between"
+        },
+        "color" : {
+          "value": "black"
+        },
+        "tooltip": {
+          "value": "High trading volumes can stimulate the economy and increase economic activity, resulting in an increase in GDP."
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dx": 350,
+        "dy": -15,
+        "fontSize": 13,
+        "fontWeight": "normal"
+      },
+      "encoding": {
+        "text": {
+          "value": "total trade volume and GDP"
+        },
+        "color" : {
+          "value": "black"
+        },
+        "tooltip": {
+          "value": "High trading volumes can stimulate the economy and increase economic activity, resulting in an increase in GDP."
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dx": -200,
+        "dy": -100,
+        "fontSize": 13,
+        "fontWeight": "normal"
+      },
+      "encoding": {
+        "text": {
+          "value": "Countries in Africa generally have a"
+        },
+        "color" : {
+          "value": "black"
+        },
+        "tooltip": {
+          "value": "Africa is generally less developed than other continents, resulting in a small market and low trade volume."
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dx": -200,
+        "dy": -85,
+        "fontSize": 13,
+        "fontWeight": "normal"
+      },
+      "encoding": {
+        "text": {
+          "value": "lower trading volumne and GDP."
+        },
+        "color" : {
+          "value": "black"
+        },
+        "tooltip": {
+          "value": "Africa is generally less developed than other continents, resulting in a small market and low trade volume."
+        }
       }
     }
   ],
