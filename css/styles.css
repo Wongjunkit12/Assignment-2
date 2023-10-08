@@ -1,8 +1,24 @@
-#map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
+.dashboard {
+	background-color: white;
+    padding: 50px;
+    padding-top: 35px;
+}
+
+.vega-bindings {
+	display: flex;
+	justify-content: space-between; 
+	padding: 10px; 
+	background-color: #f9f9f9; 
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+  
+.vega-bindings > div {
+	flex-grow: 1; 
+	margin-right: 10px;
+}
+
+.vega-bindings > div:last-child {
+	margin-right: 0;
 }
